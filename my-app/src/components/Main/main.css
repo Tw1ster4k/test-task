@@ -1,0 +1,13 @@
+.open-btn{
+    height: 50px;
+    width: 100px;
+    background-color: red;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+
+}
+

@@ -1,0 +1,20 @@
+.cards {
+    display: flex;
+    border: solid 2px grey;
+    border-radius: 10px;
+    height: 58px;
+    width: 400px;
+    margin: 5px;
+  }
+
+  .name{
+    font-size: 12px;
+    text-align: left;
+  }
+  .imgHumans{
+    position: absolute;
+    height: 55px;
+    width: 55px;
+    right: 20px;
+    margin-top: -52.5px;
+  }
