@@ -1,20 +1,21 @@
-.cards {
+.card {
     display: flex;
     border: solid 2px grey;
     border-radius: 10px;
     height: 58px;
     width: 400px;
     margin: 5px;
+    display: flex;
+    flex-direction: column;
   }
 
-  .name{
-    font-size: 12px;
-    text-align: left;
-  }
-  .imgHumans{
+.card__contents{
+  font-size: 12px;
+}
+  .card__contents.card__contents_content_img{
     position: absolute;
     height: 55px;
     width: 55px;
     right: 20px;
-    margin-top: -51px;
+    margin-top: 0px;
   }
