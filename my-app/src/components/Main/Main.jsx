@@ -21,9 +21,12 @@ const Main = () => {
             })
 }
 return (
-    <div className={main()}> 
+    <div className={main()}>
+        {/* Кнопку вынести в отдельный компонент, например Button */}
         <button className={open()} onClick={ getUsers }>Открыть</button>
-            <Modal active={modalActive} setActive={setModalActive} children={ users } />
+            <Modal active={modalActive} setActive={setModalActive} data={ users }>
+                <div>Передаем сверху в модалку любую структуру</div>
+            </Modal>
     </div>
 )
 }

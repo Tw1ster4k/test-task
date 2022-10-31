@@ -1,4 +1,4 @@
-.modal {
+.Modal {
      height: 100vh;
      width: 100vw;
      background-color: rgba(0, 0, 0, 0.4);
@@ -12,8 +12,16 @@
      opacity: 0;
      transition: 0.5s;
 }
-
-.modal__content{
+/* По БЭМ нельзя использовать каскад стилей */
+/* Можно просто написать класс для модификатора */
+/* Было */
+/*.Modal.Modal_active {*/
+/* Стало */
+.Modal_active {
+    opacity: 1;
+    pointer-events: all;
+}
+.Modal-Content {
     padding: 20px;
     border-radius: 12px;
     background-color: white;
@@ -22,16 +30,10 @@
     transform: scale(0.5);
     transition: 0.4s all;
 }
-
-.modal.modal__active{
-       opacity: 1;
-       pointer-events: all;
-}
-
-.modal__content.modal__content__active{
+.Modal-Content_active{
     transform: scale(1);
 }
-
+/* close отдельный класс, нужно написать  */
 .close{
     display: block;
     margin-left: auto;
