@@ -12,15 +12,12 @@
      opacity: 0;
      transition: 0.5s;
 }
-/* По БЭМ нельзя использовать каскад стилей */
-/* Можно просто написать класс для модификатора */
-/* Было */
-/*.Modal.Modal_active {*/
-/* Стало */
+
 .Modal_active {
     opacity: 1;
     pointer-events: all;
 }
+
 .Modal-Content {
     padding: 20px;
     border-radius: 12px;
@@ -30,18 +27,7 @@
     transform: scale(0.5);
     transition: 0.4s all;
 }
+
 .Modal-Content_active{
     transform: scale(1);
-}
-/* close отдельный класс, нужно написать  */
-.close{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 40px;
-    width: 70px;
-    background-color: blue;
-    border-radius: 10px;
-    color: white;
-    font-family:'Courier New', Courier, monospace;
 }
