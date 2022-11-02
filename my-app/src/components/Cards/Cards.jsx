@@ -1,24 +1,22 @@
 import React from 'react'
 import {cn} from "@bem-react/classname";
-import "./cards.css"
+import "./Cards.css"
 
 const Cards = ({data}) => {
-    const card = cn("Card")
+    const cnCards = cn("Cards")
 
-   
   return (
-    <div className='cards'>
+    <div className={cnCards()}>
+            {/*Забыл проверить на пустоту массива*/}
             {Array.isArray(data) ? data.map((el, index) =>
-            <div className={card()} key={index}>
-                <div className={card("Contents" ,{ content: "name"})}>Name: {el.name.first} {el.name.last}</div>
-                <div className={card("Contents" ,{ content: "age"})}>Age: {el.dob.age}</div>
-                <div className={card("Contents" ,{ content: "number"})}>Number: {el.phone}</div>
-                <div className={card("Contents" ,{ content: "email"})} >email: {el.email}</div>
-                <img className={card("Contents" ,{ content: "img"})} src={el.picture.large} />
-           </div> 
-                )
-                :
-            <div>Loading...</div> 
+                    <div className={cnCards('Item')} key={index}>
+                        <div className={cnCards('Text')}>Name: {el.name.first} {el.name.last}</div>
+                        <div className={cnCards('Text')}>Age: {el.dob.age}</div>
+                        <div className={cnCards('Text')}>Number: {el.phone}</div>
+                        <div className={cnCards('Text')}>email: {el.email}</div>
+                        <img className={cnCards('Image')} src={el.picture.large} alt={'img'}/>
+                   </div>
+                ) : <div>Loading...</div>
             }
     </div>
   )

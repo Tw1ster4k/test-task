@@ -1,21 +1,21 @@
-.Card {
+.Cards-Item {
     display: flex;
     border: solid 2px grey;
     border-radius: 10px;
     height: 58px;
     width: 400px;
     margin: 5px;
-    display: flex;
     flex-direction: column;
   }
 
-.Card-Contents{
+.Cards-Text{
   font-size: 12px;
 }
-.Card-Contents_content_img{
+/*Модификатор тут не нужен, можно просто указать что элементом является картинка а не текст*/
+.Cards-Image {
     position: absolute;
     height: 55px;
     width: 55px;
     right: 20px;
-    margin-top: 0px;
+    margin-top: 0;
   }

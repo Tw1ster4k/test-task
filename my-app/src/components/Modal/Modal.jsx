@@ -1,7 +1,6 @@
-/* eslint-disable jsx-a11y/alt-text */
 import {cn} from "@bem-react/classname";
 import React from 'react'
-import './modal.css'
+import './Modal.css'
 
 const Modal = ({active, children}) => {
 

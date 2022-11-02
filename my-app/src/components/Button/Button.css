@@ -1,0 +1,18 @@
+.Button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    width: 70px;
+    /*height: 50px;*/
+    /*width: 100px;*/
+    background-color: blue;
+    /*background-color: red;*/
+    border-radius: 10px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*Разобраться, как сделать по БЭМ 2 группы модификаторов*/
+/*Первая группа модификаторов отвечает за размер кнопки*/
+/*Вторая группа модификаторов отвечает за цвет фона кнопки*/
