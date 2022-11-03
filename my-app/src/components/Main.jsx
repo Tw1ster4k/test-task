@@ -29,12 +29,13 @@ const Main = () => {
             {/* тем самым наши стили будут применяться к определённому классу */}
             {/* PS: Не договорил что если мы хотим создать 2 модификатора, которые отвечают за размер и за цвет, 
             то наверное нам придётся использовать 1 способо пример: classname={modalActive === true ? cnButton({size: "s", backround-color: "blue"}) : cnButton({size: "m", backround-color: "red"})}
+            И я ещё заметил что когда модальное окно активно то кнопка закрыть всегда будет активна и мы можем передать в поле active только положительное значение 
             */}
 
 
-            <Button callBack={() => getData()} text={'Открыть'}/>
+            <Button callBack={() => getData()} text={'Открыть'} />
             <Modal active={modalActive}>
-                <Button callBack={() => setModalActive(false)} text={'Закрыть'} active={modalActive}/>
+                <Button callBack={() => setModalActive(false)} text={'Закрыть'} active={true}/>
                 <Cards data={data} />
             </Modal>
         </div>
