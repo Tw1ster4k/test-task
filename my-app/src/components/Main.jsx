@@ -2,9 +2,6 @@ import React from 'react'
 import { useState } from 'react'
 import { cn } from "@bem-react/classname";
 import Modal from './Modal/Modal'
-// Удалить из проекта
-import OpenBtn from './OpenBtn/OpenBtn';
-import CloseBtn from './CloseBtn/CloseBtn';
 import Cards from './Cards/Cards';
 import Button from "./Button/Button";
 
@@ -25,10 +22,19 @@ const Main = () => {
 
     return (
         <div className={cnMain()}>
-            {/*Постарайся разобраться, как я сделал универсальную кнопку и как происходит передача данных внутрь*/}
+            {/*У нас есть 2 параметра callBack и text. Первый отвечает за функции которые мы передаём, а второй за название кнопки*/}
+            {/* не особо понимаю как можно наложить на 1 кнопку разные стили, но скорее всего нам нужно будет передать ещё и modalActive*/}
+            {/* если true то classname={cnButton("Close")} или cnButton("false") иначе classname={cnButton("Open")} или cnButton("true") */}
+            {/* или classname={cnButton({active: modalActive})} */}
+            {/* тем самым наши стили будут применяться к определённому классу */}
+            {/* PS: Не договорил что если мы хотим создать 2 модификатора, которые отвечают за размер и за цвет, 
+            то наверное нам придётся использовать 1 способо пример: classname={modalActive === true ? cnButton({size: "s", backround-color: "blue"}) : cnButton({size: "m", backround-color: "red"})}
+            */}
+
+
             <Button callBack={() => getData()} text={'Открыть'}/>
             <Modal active={modalActive}>
-                <Button callBack={() => setModalActive(false)} text={'Закрыть'}/>
+                <Button callBack={() => setModalActive(false)} text={'Закрыть'} active={modalActive}/>
                 <Cards data={data} />
             </Modal>
         </div>

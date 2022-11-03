@@ -2,17 +2,33 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 40px;
-    width: 70px;
-    /*height: 50px;*/
-    /*width: 100px;*/
-    background-color: blue;
-    /*background-color: red;*/
+    height: 50px;
+    width: 100px;
+    background-color: red;
     border-radius: 10px;
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
 
-/*Разобраться, как сделать по БЭМ 2 группы модификаторов*/
-/*Первая группа модификаторов отвечает за размер кнопки*/
-/*Вторая группа модификаторов отвечает за цвет фона кнопки*/
+/* .Button_size_m {
+    height: 50px;
+    width: 100px;
+} */
+
+.Button_size_s{
+    height: 40px;
+    width: 70px;
+}
+
+/* .Button_backroundColor_red{
+    background-color: red;
+} */
+
+.Button_backroundColor_blue{
+    background-color: blue;
+}
+
+
+/* я не уверен правильные ли это решения, но у меня есть 2 пути. В первом у нас кнопка изначально либо красная либо синия, но 
+когда active меняется то она меняется или на синию или на красную. Во втором мы смотрим сразу какое значение у active и
+соответственно, исходя от значения active, мы меняем цвет и размер кнопки по модулям */

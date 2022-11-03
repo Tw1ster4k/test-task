@@ -11,7 +11,7 @@
 .Cards-Text{
   font-size: 12px;
 }
-/*Модификатор тут не нужен, можно просто указать что элементом является картинка а не текст*/
+
 .Cards-Image {
     position: absolute;
     height: 55px;

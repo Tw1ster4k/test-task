@@ -7,8 +7,8 @@ const Cards = ({data}) => {
 
   return (
     <div className={cnCards()}>
-            {/*Забыл проверить на пустоту массива*/}
-            {Array.isArray(data) ? data.map((el, index) =>
+         
+            {Array.isArray(data) && data.length !== 0 ? data.map((el, index) =>
                     <div className={cnCards('Item')} key={index}>
                         <div className={cnCards('Text')}>Name: {el.name.first} {el.name.last}</div>
                         <div className={cnCards('Text')}>Age: {el.dob.age}</div>
