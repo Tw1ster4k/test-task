@@ -2,11 +2,13 @@ import React from 'react'
 import { cn } from '@bem-react/classname'
 import "./Button.css"
 
-const Button = ({callBack, text, active}) => {
+// Просто передаем сверху объект с нужным набором модификаторов
+const Button = ({callBack, text, mods}) => {
     const cnButton = cn('Button')
 
     return (
-        <button className={active === true ? cnButton({size: "s", backroundColor:"blue" }) : cnButton(/* {size: "m", backroundColor: "red"} */)} onClick={callBack}>{text}</button>
+        // spread оператором передаем полученный объект в модификатор yandex библиотекиы
+        <button className={cnButton({...mods})} onClick={callBack}>{text}</button>
     )
 }
 

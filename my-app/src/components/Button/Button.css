@@ -2,33 +2,17 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 50px;           /* <--удали для 2 способа */
-    width: 100px;               /* <--удали для 2 способа */
-    background-color: red;      /* <--удали для 2 способа */
+    height: 50px;
+    width: 100px;
+    background-color: red;
     border-radius: 10px;
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
-
-/* .Button_size_m {         
-    height: 50px;
-    width: 100px;       
-} */                    /* <--- раскоменть для 2 способа */
-
-.Button_size_s{
+.Button_size_s {
     height: 40px;
     width: 70px;
 }
-
-/* .Button_backroundColor_red{
-    background-color: red;
-} */             /* <--- раскоменть для 2 способа */
-
-.Button_backroundColor_blue{
+.Button_backroundColor_blue {
     background-color: blue;
 }
-
-
-/* я не уверен правильное ли это решение, но у меня есть 2 пути. В первом способе у нас кнопка изначально либо красная либо синия, но 
-когда active меняется то она меняется или на синию/красную или возращается в начальное состояние. Во втором мы смотрим сразу какое значение у active и
-соответственно, исходя от значения active, мы меняем цвет и размер кнопки по модулям */

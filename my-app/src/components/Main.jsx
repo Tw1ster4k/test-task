@@ -22,20 +22,11 @@ const Main = () => {
 
     return (
         <div className={cnMain()}>
-            {/*У нас есть 2 параметра callBack и text. Первый отвечает за функции которые мы передаём, а второй за название кнопки*/}
-            {/* не особо понимаю как можно наложить на 1 кнопку разные стили, но скорее всего нам нужно будет передать ещё и modalActive*/}
-            {/* если true то classname={cnButton("Close")} или cnButton("false") иначе classname={cnButton("Open")} или cnButton("true") */}
-            {/* или classname={cnButton({active: modalActive})} */}
-            {/* тем самым наши стили будут применяться к определённому классу */}
-            {/* PS: Не договорил что если мы хотим создать 2 модификатора, которые отвечают за размер и за цвет, 
-            то наверное нам придётся использовать 1 способо пример: classname={modalActive === true ? cnButton({size: "s", backround-color: "blue"}) : cnButton({size: "m", backround-color: "red"})}
-            И я ещё заметил что когда модальное окно активно то кнопка закрыть всегда будет активна и мы можем передать в поле active только положительное значение 
-            */}
-
-
-            <Button callBack={() => getData()} text={'Открыть'} />
+            {/*Используем кнопку "как есть"*/}
+            <Button callBack={() => getData()} text={'Открыть'} mods={{}}/>
             <Modal active={modalActive}>
-                <Button callBack={() => setModalActive(false)} text={'Закрыть'} active={true}/>
+                {/*Передаем набор модификаторов*/}
+                <Button callBack={() => setModalActive(false)} text={'Закрыть'} mods={{size: "s", backroundColor: "blue"}}/>
                 <Cards data={data} />
             </Modal>
         </div>
