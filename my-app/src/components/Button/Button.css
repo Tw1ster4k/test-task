@@ -9,10 +9,20 @@
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
+
+
 .Button_size_s {
     height: 40px;
     width: 70px;
 }
 .Button_backroundColor_blue {
     background-color: blue;
+}
+
+.Button_backroundColor_yellow{
+    background-color: yellow;
+}
+
+.Button_backroundColor_green {
+    background-color: green;
 }

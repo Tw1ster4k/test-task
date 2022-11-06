@@ -11,6 +11,7 @@ const Main = () => {
     const cnMain = cn("Main")
         const [modalActive, setModalActive] = useState(false)
         const [data,setData] = useState({})
+        const [hover,setHover] = useState(false)
         
         const getData = () => {
             setModalActive(true)
@@ -23,10 +24,10 @@ const Main = () => {
     return (
         <div className={cnMain()}>
             {/*Используем кнопку "как есть"*/}
-            <Button callBack={() => getData()} text={'Открыть'} mods={{}}/>
+            <Button callBack={() => getData()} text={'Открыть'} mods={hover ? {backroundColor: "yellow"} : {}} setHover={setHover}/>
             <Modal active={modalActive}>
                 {/*Передаем набор модификаторов*/}
-                <Button callBack={() => setModalActive(false)} text={'Закрыть'} mods={{size: "s", backroundColor: "blue"}}/>
+                <Button callBack={() => setModalActive(false)} text={'Закрыть'} mods={hover ? {size: "s", backroundColor: "green"} : {size: "s", backroundColor: "blue"}} setHover={setHover}/>
                 <Cards data={data} />
             </Modal>
         </div>
