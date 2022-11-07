@@ -2,27 +2,27 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 50px;
-    width: 100px;
-    background-color: red;
     border-radius: 10px;
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
-
-
 .Button_size_s {
     height: 40px;
     width: 70px;
 }
-.Button_backroundColor_blue {
+.Button_size_m {
+    height: 50px;
+    width: 100px;
+}
+.Button_bkgColor_blue {
     background-color: blue;
 }
-
-.Button_backroundColor_yellow{
+.Button_bkgColor_red {
+    background-color: red;
+}
+.Button_bkgColor_yellow {
     background-color: yellow;
 }
-
-.Button_backroundColor_green {
+.Button_bkgColor_green {
     background-color: green;
 }

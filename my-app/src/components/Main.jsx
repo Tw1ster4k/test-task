@@ -9,25 +9,24 @@ const Main = () => {
 
     // Когда используешь библиотеку, пиши cn...(имя блока с большой буквы)
     const cnMain = cn("Main")
-        const [modalActive, setModalActive] = useState(false)
-        const [data,setData] = useState({})
-        const [hover,setHover] = useState(false)
-        
-        const getData = () => {
-            setModalActive(true)
-            fetch('https://randomuser.me/api/?results=10').then(async (res) => {
-                const result = await res.json()
-                setData(result.results)
-            })
+    const [modalActive, setModalActive] = useState(false)
+    const [data,setData] = useState({})
+
+    const getData = () => {
+        setModalActive(true)
+        fetch('https://randomuser.me/api/?results=10').then(async (res) => {
+            const result = await res.json()
+            setData(result.results)
+        })
     }
 
     return (
         <div className={cnMain()}>
             {/*Используем кнопку "как есть"*/}
-            <Button callBack={() => getData()} text={'Открыть'} mods={hover ? {backroundColor: "yellow"} : {}} setHover={setHover}/>
+            <Button callBack={() => getData()} text={'Открыть'} mods={{base: {size: "m", bkgColor: "red"}, hover: {bkgColor: "yellow"}}}/>
             <Modal active={modalActive}>
                 {/*Передаем набор модификаторов*/}
-                <Button callBack={() => setModalActive(false)} text={'Закрыть'} mods={hover ? {size: "s", backroundColor: "green"} : {size: "s", backroundColor: "blue"}} setHover={setHover}/>
+                <Button callBack={() => setModalActive(false)} text={'Закрыть'} mods={{base: {size: "s", bkgColor: "blue"}, hover: {bkgColor: "green"}}}/>
                 <Cards data={data} />
             </Modal>
         </div>
