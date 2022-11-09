@@ -1,0 +1,20 @@
+.Button{
+    color: #FFFF;
+    border-color: #6F2CFF;
+    background-color: #6F2CFF;
+    margin: 10px 10px 10px 10px;
+}
+
+.Button_size_m{
+    width: 157px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.Button_size_sma{
+    height: 45px;
+    width: 187px;
+    border-radius: 0px 27.5px 27.5px 0px;
+    margin-top: -45px;
+    margin-left: 183px;
+}

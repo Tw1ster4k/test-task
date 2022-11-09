@@ -1,0 +1,18 @@
+.Search{
+    background-color: #f6bed9;
+    height: 755px;
+}
+
+.Search-Content{
+    position: absolute;
+    height: 366;
+    left: 7.99%;
+    right: 50%;
+    top: 194.5px;   
+}
+
+.Search-Text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}

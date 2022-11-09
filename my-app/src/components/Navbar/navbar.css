@@ -1,0 +1,26 @@
+.Navbar{
+    position: absolute;
+    height: 60px;
+    background-color: #FFFF;
+    top: 0px;
+    left: 0%;
+    right: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Navbar-Title{
+    width: 79px;
+    height: 24px;
+    left: 2.08%;
+    right: 92.43%;
+    top: 20px;
+}
+
+.Navbar-Navigate{
+    height: 14px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+}
+

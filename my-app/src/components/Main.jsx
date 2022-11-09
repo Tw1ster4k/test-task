@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { cn } from "@bem-react/classname";
 import Modal from './Modal/Modal'
 import Cards from './Cards/Cards';
-import Button from "./Button/Button";
+import Button from "./Button2/Button2";
 
 const Main = () => {
 
