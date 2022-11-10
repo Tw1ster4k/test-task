@@ -1,7 +1,7 @@
 import React from 'react'
 import "./navbar.css"
 import { cn } from '@bem-react/classname'
-import Button from '../Button/Button'
+import Button from '../pages/Button/Button'
 
 
 const Navbar = () => {

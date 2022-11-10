@@ -1,0 +1,37 @@
+.Title_size_b{
+    margin-left: 16.5px;
+    font-size: 54px;
+    line-height: 61px;
+    font-weight: 700;
+}
+
+.Title_color_purple{
+    color: #6f2dff;
+}
+
+.Title_size_s{
+    margin-left: 16.5px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.Title_textAlign_center{
+    text-align: center;
+}
+
+.Title_color_hexGrey{
+    color: #1c1c1c1c
+}
+
+.Title_size_mm{
+    margin-left: 16.5px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+}
+
+.Title_direction_right{
+    margin-left: 220px;
+    margin-top: -50px;
+}

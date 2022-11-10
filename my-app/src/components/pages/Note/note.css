@@ -1,0 +1,16 @@
+.Note_size_s{
+    margin-left: 16.5px;
+    top: -0.5px;
+    color: #000;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.Note_direction_under{
+    margin-top: 56px;
+}
+
+.Note_direction_lover{
+    margin-top: 7px;
+}

@@ -1,0 +1,33 @@
+.Stats{
+    width: 1380px;
+    height: 660px;
+}
+
+.Stats-Content{
+    width: 1260px;
+    height: 660px;
+}
+
+.Stats-Left{
+        position: absolute;
+        height: 472px;
+        width: 400px;
+        top: 1100px;
+        left: 7%;
+        right: 50%;
+}
+
+.Stats-Right{
+    display: flex;
+    position: absolute;
+    height: 660px;
+    width: 629px;
+    top: 970px;
+    left: 50%;
+    right: 7%;
+}
+
+.Stats-Block{
+    height: 220px;
+    width: 314.5px;
+}

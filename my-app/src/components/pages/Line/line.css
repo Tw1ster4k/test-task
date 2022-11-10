@@ -1,0 +1,40 @@
+.Line{
+   background-color: #6f2dff;
+}
+
+.Line_size_m{
+    width: 143px;
+    height: 2px;
+}
+
+.Line_direction_under{
+    margin-left: 230px;
+}
+
+.Line_color_black{
+    background-color: #000000;
+}
+
+.Line_size_la{
+    width: 92px;
+    height: 1px;
+}
+
+.Line_direction_left{
+    margin-left: 16.5px;
+}
+
+.Line_size_b{
+    position: absolute;
+    left: 50%;
+    height: 660px;
+    width: 1px;
+}
+.Line_direction_center{
+    margin: 0 auto;
+}
+
+.Line_color_gray{
+    background: #E0E0E0;
+
+}

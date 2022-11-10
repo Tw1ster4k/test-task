@@ -14,7 +14,12 @@
 .Button_size_sma{
     height: 45px;
     width: 187px;
+    border-radius: 30px;
+}
+
+.Button_border{
     border-radius: 0px 27.5px 27.5px 0px;
     margin-top: -45px;
-    margin-left: 183px;
+    margin-left: 268px;
 }
+

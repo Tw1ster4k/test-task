@@ -1,9 +1,9 @@
 import React from 'react'
 import { useState } from 'react'
 import { cn } from "@bem-react/classname";
-import Modal from './Modal/Modal'
-import Cards from './Cards/Cards';
-import Button from "./Button2/Button2";
+import Modal from '../components_task_1/Modal/Modal'
+import Cards from '../components_task_1/Cards/Cards';
+import Button from "../components_task_1/Button2/Button2";
 
 const Main = () => {
 

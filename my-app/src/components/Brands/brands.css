@@ -1,0 +1,8 @@
+.Brands{
+    height: 204px;
+}
+
+.Brands-Images{
+    display: flex;
+    justify-content: space-around;
+}
