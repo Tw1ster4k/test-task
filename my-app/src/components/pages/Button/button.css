@@ -23,3 +23,14 @@
     margin-left: 268px;
 }
 
+.Button_backgroundColor_white{
+    background-color: #FFFF;
+}
+
+.Button_color_purple{
+    color: #6F2CFF;
+}
+
+.Button_borderColor_white{
+    border-color: #FFFF;
+}

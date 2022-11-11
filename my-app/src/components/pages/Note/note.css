@@ -12,5 +12,19 @@
 }
 
 .Note_direction_lover{
+    margin-top: 16px;
+}
+
+.Note_direction_underText{
     margin-top: 7px;
+}
+
+.Note_size_ls{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.Note_textAlign_center{
+    text-align: center;
 }

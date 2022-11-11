@@ -17,7 +17,7 @@ const Stats = () => {
                     <Title mods={{size: "s", color: "hexGray", direction:"right"}} text={"Meet our customers >"}/>
                     <Line mods={{size:"m", direction:'under'}} />
                     <Note  mods={{size:"s", direction:"under"}} text={"*PwC audited methodology."}/>
-                    <Note  mods={{size:"s", direction:"lover"}} text={"Read the report"}/>
+                    <Note  mods={{size:"s", direction:"underText"}} text={"Read the report"}/>
                     <Line mods={{size:"la", color: "black", direction:"left"}}/>
                 </div>
                 <Line mods={{size:'b', color:"gray"}} />

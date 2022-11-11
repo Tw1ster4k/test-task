@@ -2,3 +2,25 @@
     width: 102px;
     height: 42px;
 }
+
+.Image_size_sm{
+    width: 37px;
+    height: 37px;
+}
+
+.Image_direction_center{
+    position: relative;
+    margin-left: 133.5px;
+}
+
+.Image_size_b{
+    height: 560px;
+    width: 996px;
+}
+
+.Image_place_center{
+    position: absolute;
+    left: 50%;
+    margin-left: -500px;
+    margin-top: 280px;
+}

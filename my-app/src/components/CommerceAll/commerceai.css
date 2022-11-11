@@ -1,0 +1,17 @@
+.CommerceAll{
+    height: 537px;
+    margin-top: 94px;
+}
+
+
+.CommerceAll-Items{
+    height: 400px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.CommerceAll-Block{
+    width: 304px;
+    height: 280px;
+}

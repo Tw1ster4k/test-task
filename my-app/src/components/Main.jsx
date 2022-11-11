@@ -22,6 +22,7 @@ const Main = () => {
 
     return (
         <div className={cnMain()}>
+            <h1>/qubit</h1>
             {/*Используем кнопку "как есть"*/}
             <Button callBack={() => getData()} text={'Открыть'} mods={{base: {size: "m", bkgColor: "red"}, hover: {bkgColor: "yellow"}}}/>
             <Modal active={modalActive}>
