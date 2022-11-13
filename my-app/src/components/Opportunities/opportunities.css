@@ -1,0 +1,18 @@
+.Opportunities{
+    height: 845px;
+}
+
+.Opportunities-Content{
+    height: 751px;
+    margin-top: 94px;
+}
+
+.Opportunities-Items{
+    height: 691px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}

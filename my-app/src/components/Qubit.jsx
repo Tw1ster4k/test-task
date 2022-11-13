@@ -8,6 +8,7 @@ import Brands from './Brands/Brands'
 import Stats from './Stats/Stats'
 import CommerceAll from './CommerceAll/CommerceAI'
 import WithPicture from './WithPicture/WithPicture'
+import Opportunities from './Opportunities/Opportunities'
 
 const Qubit = () => {
     const cnQubit = cn("Qubit")
@@ -19,6 +20,7 @@ const Qubit = () => {
     <Stats />
     <CommerceAll />
     <WithPicture />
+    <Opportunities />
     </div>
   )
 }
