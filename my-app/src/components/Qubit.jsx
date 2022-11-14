@@ -9,6 +9,7 @@ import Stats from './Stats/Stats'
 import CommerceAll from './CommerceAll/CommerceAI'
 import WithPicture from './WithPicture/WithPicture'
 import Opportunities from './Opportunities/Opportunities'
+import ComponentCards from './ComponentCards/ComponentCards'
 
 const Qubit = () => {
     const cnQubit = cn("Qubit")
@@ -21,6 +22,7 @@ const Qubit = () => {
     <CommerceAll />
     <WithPicture />
     <Opportunities />
+    <ComponentCards />
     </div>
   )
 }

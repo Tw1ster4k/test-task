@@ -9,6 +9,8 @@ const Brands = () => {
     const cnBrands = cn("Brands")
   return (
     <div className={cnBrands()}>
+      <div className={cnBrands("Content")}>
+        
         <Title mods={{size: "s", color: "hexGray", textAlign:"center"}} text={"Trusted by world-class brands."} />
         <div className={cnBrands("Images")}>
         <Images imgurl={"https://logojinni.com/image/logos/barbour.svg"}  mods={{size:"s"}} />
@@ -20,8 +22,11 @@ const Brands = () => {
         <Images imgurl={"https://www.domotz.com/assets/img/solutions-pages/hospitality/Radisson_Hotels_logo.svg"} mods={{size: "s"}} />
         <Images imgurl={"https://www.lavermonlinge.com/userfiles/images/Clevercare/G-Star_Raw_logo_black.jpg"} mods={{size: "s"}} />
         </div>
+        <div className={cnBrands("End")}>
         <Title mods={{size: "s", color: "hexGray", textAlign:"center"}} text={"Meet our customers >"} />
         <Line mods={{size:"m", color:"purple", direction: "center"}} />
+        </div>
+      </div>
     </div>
   )
 }

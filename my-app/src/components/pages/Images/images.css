@@ -1,6 +1,6 @@
 .Image_size_s{
-    width: 102px;
-    height: 42px;
+    width: 125px;
+    height: 35px;
 }
 
 .Image_size_sm{
@@ -24,3 +24,19 @@
     margin-left: -500px;
     margin-top: 280px;
 }
+
+.Image_size_m{
+    height: 200px;
+    width: 300px;
+}
+
+.Image_direction_centerCard{
+    margin-top: 25px;
+    margin-left: 85.5px;
+}
+
+.Image_size_ls{
+    width: 26px;
+    height: 46px;
+}
+

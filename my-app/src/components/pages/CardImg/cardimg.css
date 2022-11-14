@@ -1,0 +1,12 @@
+.CardImg{
+    height: 438px;
+    width: 300px;
+    background-color: #FFFFFF;
+}
+
+.CardImg-Info{
+    width: 185px;
+    height: 88px;
+    margin-top: 25px;
+    margin-left: 55px;
+}
