@@ -1,6 +1,9 @@
 import React from 'react'
 import { cn } from '@bem-react/classname'
 
+import Images from './pages/Images/Images'
+import Reward from "./pictures/Reward.png"
+
 // импорт компонентов
 import Navbar from './Navbar/Navbar'
 import Search from './Search/Search'
@@ -12,6 +15,9 @@ import Opportunities from './Opportunities/Opportunities'
 import ComponentCards from './ComponentCards/ComponentCards'
 import Specialization from './Specialization/Specialization'
 import Ecosystem from './Ecosystem/Ecosystem'
+import Order from './Order/Order'
+import Connect from './Connect/Connect'
+import Footer from './Footer/Footer'
 
 
 const Qubit = () => {
@@ -28,6 +34,10 @@ const Qubit = () => {
     <ComponentCards />
     <Specialization />
     <Ecosystem />
+    <Order />
+    <Images imgurl={Reward} mods={{side:'center'}} />
+    <Connect />
+    <Footer />
     </div>
   )
 }
