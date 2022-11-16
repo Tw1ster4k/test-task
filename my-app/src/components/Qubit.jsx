@@ -10,6 +10,9 @@ import CommerceAll from './CommerceAll/CommerceAI'
 import WithPicture from './WithPicture/WithPicture'
 import Opportunities from './Opportunities/Opportunities'
 import ComponentCards from './ComponentCards/ComponentCards'
+import Specialization from './Specialization/Specialization'
+import Ecosystem from './Ecosystem/Ecosystem'
+
 
 const Qubit = () => {
     const cnQubit = cn("Qubit")
@@ -23,6 +26,8 @@ const Qubit = () => {
     <WithPicture />
     <Opportunities />
     <ComponentCards />
+    <Specialization />
+    <Ecosystem />
     </div>
   )
 }

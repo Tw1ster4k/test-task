@@ -1,5 +1,4 @@
 .Note_size_s{
-    margin-left: 16.5px;
     top: -0.5px;
     color: #000;
     font-weight: 400;
@@ -37,4 +36,20 @@
 
 .Note_color_purple{
     color: #6f2cff;
+}
+
+.Note_color_white{
+    color:#ffffff;
+}
+
+.Note_direction_underImg{
+    margin-top: 31px;
+}
+
+.Note_place_left{
+    margin-left: 16px;
+}
+
+.Note_direction_underTitle{
+    margin-top: 47px;
 }

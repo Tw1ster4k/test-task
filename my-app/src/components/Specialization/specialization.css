@@ -1,0 +1,21 @@
+.Specialization{
+    height: 1000px;
+}
+
+.Specialization-Content{
+    height: 906px;
+    margin-top: 94px;
+}
+
+
+.Specialization-Items{
+    margin-left: 17%;
+    height: 660px;
+    width: 950px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+}

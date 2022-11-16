@@ -1,0 +1,12 @@
+.Ecosystem{
+    height: 627px;
+    background-color: #f5f5f5;
+}
+
+.Ecosystem-Content{
+    position: relative;
+    height: 438px;
+    width: 750px;
+    top: 169px;
+    left: 110px;
+}

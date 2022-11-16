@@ -37,3 +37,17 @@
 .Line_color_gray{
     background: #E0E0E0;
 }
+
+
+.Line_size_ma{
+    width: 300px;
+    height: 2px;
+}
+
+.Line_color_white{
+    background: #ffffff;
+}
+
+.Line_direction_endCard{
+    margin-top: 9px;
+}

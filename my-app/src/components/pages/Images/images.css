@@ -40,3 +40,14 @@
     height: 46px;
 }
 
+.Image_size_large{
+    width: 567px;
+    height: 567px;
+}
+
+.Image_direction_right{
+    position: relative;
+    top: -450px;
+    left: 725px;
+
+}

@@ -34,3 +34,8 @@
 .Button_borderColor_white{
     border-color: #FFFF;
 }
+
+.Button_direction_under{
+    margin-top: 74px;
+    margin-left: -10px;
+}
