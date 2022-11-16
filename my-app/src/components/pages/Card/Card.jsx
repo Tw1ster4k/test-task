@@ -11,7 +11,7 @@ const Card = ({imgurl, title, body, explore}) => {
   return (
     <div className={cnCard()} >
         <div className={cnCard("Content")}>
-        <Images imgurl={imgurl} mods={{direction:"left"}}/>
+        <Images imgurl={imgurl} />
         <Title mods={{size:"s", direction:"rightOfIcon", color:"white"}} text={title} />
         <Note mods={{size:'sl', color:"white" , direction:"underImg"}} text={body}/>
         <Note mods={{size:'s', color:"white" , direction:"underText"}} text={explore}/>
