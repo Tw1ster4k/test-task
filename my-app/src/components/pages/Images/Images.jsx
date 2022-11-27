@@ -5,7 +5,7 @@ import "./images.css"
 const Images = ({mods, imgurl}) => {
     const cnImage = cn("Image")
   return (
-        <img src={imgurl} className={cnImage({...mods})} />
+        <img src={imgurl} className={cnImage({...mods})} alt={'sss'}/>
   )
 }
 

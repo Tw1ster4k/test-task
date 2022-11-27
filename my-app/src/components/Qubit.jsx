@@ -35,6 +35,7 @@ const Qubit = () => {
     <Specialization />
     <Ecosystem />
     <Order />
+    {/*  Переместить */}
     <Images imgurl={Reward} mods={{side:'center'}} />
     <Connect />
     <Footer />

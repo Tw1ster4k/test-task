@@ -2,10 +2,10 @@ import React from 'react'
 import { cn } from '@bem-react/classname'
 import "./button.css"
 
-const Button = ({mods, text}) => {
+const Button = ({className, mods, text}) => {
     const cnButton = cn("Button")
   return (
-   <button className={cnButton({...mods})}>
+   <button className={cnButton({...mods}, [className])}>
        {text}
    </button>
   )

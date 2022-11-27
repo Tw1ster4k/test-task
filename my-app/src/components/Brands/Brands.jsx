@@ -7,12 +7,18 @@ import Line from '../pages/Line/Line'
 
 const Brands = () => {
     const cnBrands = cn("Brands")
+
+  // Массив с url картонок
+  // useEffect - вытащить картинки - сохранить в массив и массив передавать
+
   return (
     <div className={cnBrands()}>
       <div className={cnBrands("Content")}>
         
         <Title mods={{size: "s", color: "hexGray", textAlign:"center"}} text={"Trusted by world-class brands."} />
         <div className={cnBrands("Images")}>
+
+        {/*  map выводишь из массива картинки*/}
         <Images imgurl={"https://logojinni.com/image/logos/barbour.svg"}  mods={{size:"s"}} />
         <Images imgurl={"https://cdn.worldvectorlogo.com/logos/kate-spade-wordmark.svg"} mods={{size: "s"}} />
         <Images imgurl={"https://1000logos.net/wp-content/uploads/2020/10/LVMH-logo.png"} mods={{size: "s"}} />
