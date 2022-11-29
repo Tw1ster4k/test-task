@@ -2,10 +2,10 @@ import React from 'react'
 import { cn } from '@bem-react/classname'
 import "./images.css"
 
-const Images = ({mods, imgurl}) => {
+const Images = ({className ,mods, imgurl}) => {
     const cnImage = cn("Image")
   return (
-        <img src={imgurl} className={cnImage({...mods})} alt={'sss'}/>
+        <img src={imgurl} className={cnImage({...mods}, [className])} alt={'sss'}/>
   )
 }
 

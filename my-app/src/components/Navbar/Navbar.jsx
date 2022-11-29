@@ -1,29 +1,34 @@
 import React from 'react'
 import "./Navbar.css"
 import { cn } from '@bem-react/classname'
+import Images from '../pages/Images/Images'
+import Qubit from "../pictures/Qubit.png"
 import Button from '../pages/Button/Button'
+import { Link } from 'react-router-dom'
 
 
 const Navbar = () => {
     const cnNavbar = cn("Navbar")
+    
+    const arr = ["Why Qubit?","Products", "Solution", "Customers", "Case studies" , "Resources", "More"]
+
   return (
       // Меняем
-    <footer className={cnNavbar()}>
-        {/* Вместо <p></p> можно поставить <Link /> из React Router Dom */}
-        <h2 className={cnNavbar("Title")}>Qubit.</h2>
-        {/*// Обернуть в nav ul li Link*/}
-        <p className={cnNavbar("Navigate")}>Why Qubit?</p>
-        <p className={cnNavbar("Navigate")}>Products</p>
-        <p className={cnNavbar("Navigate")}>Solution</p>
-        <p className={cnNavbar("Navigate")}>Customers</p>
-        <p className={cnNavbar("Navigate")}>Case studies</p>
-        <p className={cnNavbar("Navigate")}>Resources</p>
-        <p className={cnNavbar("Navigate")}>More</p>
-        {/* Обернуть в родительский элемент */}
+    <header className={cnNavbar()}>
+        <nav className={cnNavbar("Nav")}>
+        <Link to="#"><Images imgurl={Qubit} className={cnNavbar("Image")} /> </Link>
+        
+        <ul className={cnNavbar("Ul")}>
+              {arr.map((el, index) => 
+                <Link to="#" key={index} className={cnNavbar("Link")} ><li className={cnNavbar("Li")}>{el}</li> </Link>
+                )}
+                </ul>
+        
         <Button className={cnNavbar('Button')} mods={{size:'m'}} text={"Book a demo"} />
         {/*Link*/}
-        <p className={cnNavbar("Navigate")}>Log in</p>
-    </footer>
+        <Link to="#" className={cnNavbar("Link")} ><li className={cnNavbar("Li")}>Log in</li> </Link>
+        </nav>
+    </header>
   )
 }
 

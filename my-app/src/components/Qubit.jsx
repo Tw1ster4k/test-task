@@ -1,5 +1,6 @@
 import React from 'react'
 import { cn } from '@bem-react/classname'
+import "./Qubit.css"
 
 import Images from './pages/Images/Images'
 import Reward from "./pictures/Reward.png"

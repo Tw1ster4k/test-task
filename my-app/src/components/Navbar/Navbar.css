@@ -1,6 +1,13 @@
+@font-face{
+    font-family: "Roboto-Regular";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
 .Navbar{
     position: absolute;
     height: 60px;
+    width: 1440px;
+    margin: 0 auto;
     background-color: #FFFF;
     top: 0px;
     left: 0%;
@@ -27,3 +34,29 @@
     margin: 20px;
 }
 
+.Navbar-Image{
+    margin-top: 40%;
+}
+
+.Navbar-Nav{
+    display: flex;
+    width: 1440px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Navbar-Ul{
+    width: 50%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.Navbar-Li{
+    list-style-type: none;
+    font-family: Roboto-Regular;
+}
+
+.Navbar-Link{
+    text-decoration: none;
+    color: #1c1c1c;
+}

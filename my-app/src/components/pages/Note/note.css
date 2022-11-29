@@ -1,7 +1,11 @@
+@font-face{
+    font-family: "Roboto-Regular";
+    src: url(../../fonts//Roboto-Regular.ttf);
+}
+
 .Note_size_s{
-    top: -0.5px;
     color: #000;
-    font-weight: 400;
+    font-family: Roboto-Regular;
     font-size: 15px;
     line-height: 21px;
 }

@@ -5,12 +5,17 @@
     font-weight: 700;
 }
 
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url(../../fonts/Roboto-Bold.ttf);
+}
+
 .Title_color_purple{
     color: #6f2dff;
 }
 
 .Title_size_s{
-    margin-left: 16.5px;
+    font-family: Roboto-Bold;
     font-weight: 700;
     font-size: 18px;
     line-height: 30px;

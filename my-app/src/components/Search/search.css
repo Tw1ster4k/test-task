@@ -3,16 +3,44 @@
     height: 755px;
 }
 
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face{
+    font-family: "Roboto-Regular";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
 .Search-Content{
     position: absolute;
-    height: 366;
-    left: 7.99%;
+    height: 366px;
+    width: 480px;
+    left: 15.99%;
     right: 50%;
     top: 194.5px;   
 }
 
 .Search-Text{
-    font-weight: 400;
+    font-family: Roboto-Regular;
     font-size: 18px;
     line-height: 30px;
+    margin-top: 37px;
+    color: #000;
+}
+
+.Search-Title{
+    font-family: Roboto-Bold;
+    font-size: 54px;
+    margin: 0px;
+}
+
+.Search-Title_color_Black{
+    color: #000;
+    margin-top: 19px; 
+}
+
+.Search-Title_color_Purple{
+    color: #6f2dff;
 }

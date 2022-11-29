@@ -2,9 +2,7 @@ import React from 'react'
 import "./search.css"
 import { cn } from '@bem-react/classname'
 import Note from '../pages/Note/Note'
-import Title from '../pages/Title/Title'
-import Input from '../pages/Input/Input'
-import Button from '../pages/Button/Button'
+import Searcher from '../pages/Searcher/Searcher'
 
 const Search = () => {
     const cnSearch = cn("Search")
@@ -12,18 +10,14 @@ const Search = () => {
   return (
     <div className={cnSearch()}>
         <div className={cnSearch("Content")}>
-            <Note mods={{size:"s"}} text={"Driving growth with personalization."} />
-            {/*H1*/}
-            <Title mods={{size:"b", color:"black"}} text={"Make ecommerce"} />
-            <Title mods={{size:"b", color: "purple"}} text={"More personal."} />
+            <Note mods={{size:"s"}} className={cnSearch("Note")} text={"Driving growth with personalization."} />
+            <h1 className={cnSearch("Title", {color:"Black"})}>Make ecommerce</h1>
+            <h1 className={cnSearch("Title", {color:"Purple"})}>More personal.</h1>
 
             <p className={cnSearch("Text")}>
-            Hundreds of brands use Qubit CommerceAI  to power the next generation of product recommendations, badging and insights to build exceptional customer experiences.
+            Hundreds of brands use <b>Qubit CommerceAI</b>  to power the next generation of product recommendations, badging and insights to build exceptional customer experiences.
             </p>
-
-            {/*Составной компонент*/}
-            <Input mods={{size:"m"}} text={"Enter your email"}/>
-            <Button mods={{size:'sma', border: true}} text={"Book a demo"} />
+            <Searcher />
         </div>
     </div>
   )
