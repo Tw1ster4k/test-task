@@ -20,11 +20,11 @@ const ComponentCards = () => {
         <div className={cnComponentCards("Content")}>
         <Title mods={{size:"mm", textAlign:'center'}} text={"Trusted by leading brands."} />
         <div className={cnComponentCards("Items")}>
-          <Images imgurl={Left} mods={{size:'ls'}} />
+         <button className={cnComponentCards("Button")}> <Images imgurl={Left} mods={{size:'ls'}} /> </button>
           <CardImg  imgtitle={Clinique} imgurl={Woman} body={"Clinique builds relationships with millions of customers each year."}/>
           <CardImg  imgtitle={Island} imgurl={Girl} body={"River Island transforms the customer experience with personalization."}/>
           <CardImg  imgtitle={MM} imgurl={Yellow} body={"MandM Direct drives increase in revenue with deep learning recs"}/>
-          <Images imgurl={Right} mods={{size:'ls'}} />
+          <button className={cnComponentCards("Button")}>  <Images imgurl={Right} mods={{size:'ls'}} /> </button>
         </div>
         </div>
     </div>

@@ -8,11 +8,13 @@ import Twitter from "../pictures/Twitter.png"
 import Linkdin from "../pictures/Linkdin.png"
 import Instagram from "../pictures/Instagram.png"
 import Facebook from "../pictures/Facebook.png"
+import Reward from "../pictures/Reward.png"
 
 const Connect = () => {
     const cnConnect = cn("Connect")
   return (
     <div className={cnConnect()}>
+      <Images imgurl={Reward} className={cnConnect("Image")} />
         <div className={cnConnect("Content")}>
             <Note mods={{size:'ls', textAlign: 'center'}} text={"Connect with us"}/>
             <div className={cnConnect("Items")}>

@@ -1,0 +1,17 @@
+.StatsBlock{
+    height: 220px;
+    width: 314.5px;
+}
+
+.StatsBlock-Title{
+    margin-left: 16.5px;
+}
+
+.StatsBlock-Body{
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.StatsBlock-SecondBody{
+    margin-left: 16px;
+}

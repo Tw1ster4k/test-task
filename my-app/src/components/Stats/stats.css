@@ -7,12 +7,11 @@
 }
 
 .Stats-Left{
-        position: absolute;
-        height: 472px;
-        width: 400px;
-        top: 1100px;
-        left: 7%;
-        right: 50%;
+    position: absolute;
+        height: 572px;
+        width: 410px;
+        margin-left: 5%;
+        margin-top: 177px;
 }
 
 .Stats-Right{
@@ -28,4 +27,45 @@
 .Stats-Block{
     height: 220px;
     width: 314.5px;
+}
+
+.Stats-Title{
+    margin-left: 4%;
+}
+
+.Stats-Button{
+    margin-top: 58px;
+}
+
+.Stats-Text{
+    margin-left: 220px;
+    margin-top: -50px;
+}
+
+.Stats-Note{
+    margin-top: 56px;
+    margin-left: 16px;
+}
+
+.Stats-Under{
+    margin-left: 16px;
+    margin-top: 7px;
+}
+
+.Stats-LinePurple{
+    margin-left: 230px;
+}
+
+.Stats-LineBlack{
+    margin-left: 20px;
+}
+
+.Stats-LineGray{
+    position: absolute;
+    left: 50%;
+}
+
+.Stats-LineRight{
+    position: absolute;
+    left: 50%;
 }

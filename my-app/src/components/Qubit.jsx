@@ -2,8 +2,6 @@ import React from 'react'
 import { cn } from '@bem-react/classname'
 import "./Qubit.css"
 
-import Images from './pages/Images/Images'
-import Reward from "./pictures/Reward.png"
 
 // импорт компонентов
 import Navbar from './Navbar/Navbar'
@@ -36,8 +34,6 @@ const Qubit = () => {
     <Specialization />
     <Ecosystem />
     <Order />
-    {/*  Переместить */}
-    <Images imgurl={Reward} mods={{side:'center'}} />
     <Connect />
     <Footer />
     </div>

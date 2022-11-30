@@ -13,7 +13,7 @@ const CommerceAll = () => {
   return (
     <div className={cnCommerceAll()}>
         <Title mods={{size:"mm", textAlign:'center'}} text={"Qubit CommerceAI."} />
-        <Note mods={{size:'ls', textAlign: 'center'}} text={"The new way to drive growth."}/>
+        <Note mods={{size:'ls', textAlign: 'center'}} className={cnCommerceAll("Note")} text={"The new way to drive growth."}/>
         <div className={cnCommerceAll("Items")}>
           <Block imgurl={Lypa} title={"More insight"} body={"Learn which products drive performance and which don't, through automated insights you can action."}/>
           <Block imgurl={Head} title={"More personal"} body={"Qubit CommerceAI generates a model per shopper to make every customer interaction more relevant."} />

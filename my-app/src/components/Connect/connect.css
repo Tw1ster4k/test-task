@@ -1,5 +1,5 @@
 .Connect{
-    height: 162px;
+    height: 342px;
 
 }
 
@@ -15,4 +15,9 @@
     left: 44%;
     display: flex;
     justify-content: space-between;
+}
+
+.Connect-Image{
+    display: block;
+    margin: 0 auto;
 }

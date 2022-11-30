@@ -23,6 +23,7 @@
 }
 
 .Note_size_ls{
+    font-family: Roboto-Regular;
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
@@ -50,9 +51,6 @@
     margin-top: 31px;
 }
 
-.Note_place_left{
-    margin-left: 16px;
-}
 
 .Note_direction_underTitle{
     margin-top: 47px;

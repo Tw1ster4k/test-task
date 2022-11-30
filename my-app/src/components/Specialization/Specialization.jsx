@@ -17,7 +17,7 @@ const Specialization = () => {
     <div className={cnSpecialization()}>
             <div className={cnSpecialization("Content")}>
             <Title mods={{size:"mm", textAlign:'center'}} text={"We specialize in your industry."} />
-            <Note mods={{size:'ls', textAlign: 'center'}} text={"Learn how we are delivering personalization at scale across sectors."}/>
+            <Note mods={{size:'ls', textAlign: 'center'}} className={cnSpecialization("Note")} text={"Learn how we are delivering personalization at scale across sectors."}/>
             <div className={cnSpecialization('Items')}>
                 <Card imgurl={Leaves} title={"Beauty and cosmetics"} body={"Discover relevant products. Push samples. Upsell and replenish."} explore={"Explore our solutions for beauty and cosmetics."} />
                 <Card imgurl={Symka} title={"Luxury"} body={"Drive brand experience online. Look after your VIPs."} explore={"Explore our solutions for luxury."} />

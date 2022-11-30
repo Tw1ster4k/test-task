@@ -9,9 +9,9 @@ const Block = ({imgurl, title, body}) => {
     const cnBlock = cn('Block')
   return (
     <div className={cnBlock()}>
-         <Images imgurl={imgurl} mods={{size:'sm', direction:"center"}}/>
-                <Title mods={{size:"sm", textAlign:'center', direction:"underImg"}} text={title} />
-                    <Note mods={{size:'s', textAlign: 'center', direction:"lover"}} text={body}/>
+         <Images imgurl={imgurl} mods={{size:'sm'}} className={cnBlock("Image")}/>
+                <Title mods={{size:"sm", textAlign:'center'}} className={cnBlock("Title")} text={title} />
+                    <Note mods={{size:'s', textAlign: 'center'}} className={cnBlock("Note")} text={body}/>
     </div>
   )
 }

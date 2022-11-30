@@ -5,8 +5,13 @@
 
 .WithPicture-Upper{
     position: absolute;
-    margin: 94px 25% 0 25%;
+    margin: 94px 12%;
     height: 150px;
+    width: 1000px;
+}
+
+.WithPicture-Note{
+    margin-top: 28px;
 }
 
 .WithPicture-Lower{
@@ -17,4 +22,11 @@
     margin-top: 810px;
     display: flex;
     justify-content: space-evenly;
+}
+
+.WithPicture-Image{
+    position: absolute;
+    left: 50%;
+    margin-left: -500px;
+    margin-top: 280px;
 }

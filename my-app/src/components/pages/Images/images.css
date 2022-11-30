@@ -53,7 +53,8 @@
 }
 
 .Image_side_center{
-    margin: 0 45% 0 45%;
+    display: block;
+    margin: 0 auto;
 }
 
 .Image_direction_left{

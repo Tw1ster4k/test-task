@@ -30,17 +30,15 @@
 }
 
 .Title_size_mm{
+    font-family: Roboto-Bold;
     font-weight: 700;
     font-size: 40px;
     line-height: 45px;
 }
 
-.Title_direction_right{
-    margin-left: 220px;
-    margin-top: -50px;
-}
 
 .Title_size_sm{
+    font-family: Roboto-Bold;
     font-weight: 700;
     font-size: 19px;
     line-height: 23px;

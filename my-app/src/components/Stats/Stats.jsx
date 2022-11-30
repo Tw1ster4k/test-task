@@ -1,62 +1,41 @@
 import React from 'react'
 import "./stats.css"
 import { cn } from '@bem-react/classname'
-import Title from '../pages/Title/Title'
 import Button from '../pages/Button/Button'
 import Line from '../pages/Line/Line'
+import StatsBlock from './Block/StatsBlock'
+import Title from '../pages/Title/Title'
 import Note from '../pages/Note/Note'
 
 const Stats = () => {
     const cnStats = cn("Stats")
+
+
   return (
     <div className={cnStats()}>
             <div className={cnStats("Content")}>
                 <div className={cnStats("Left")}>
-                    <Title mods={{size:"mm" , direction:"left"}} text={"Grow 2.5x faster than your competitors."}/>
-                    <Button mods={{size: "sma"}} text={"Book a demo"}/>
-                    <Title mods={{size: "s", color: "hexGray", direction:"right"}} text={"Meet our customers >"}/>
-                    <Line mods={{size:"m", direction:'under'}} />
-                    <Note  mods={{size:"s", direction:"under" , place:"left"}} text={"*PwC audited methodology."}/>
-                    <Note  mods={{size:"s", direction:"underText" , place:"left"}} text={"Read the report"}/>
-                    <Line mods={{size:"la", color: "black", direction:"left"}}/>
+                    <Title mods={{size:"mm"}} className={cnStats("Title")} text={"Grow 2.5x faster than your competitors."}/>
+                    <Button mods={{size: "sma"}} className={cnStats("Button")} text={"Book a demo"}/>
+                    <Title mods={{size: "s", color: "hexGray"}} className={cnStats("Text")} text={"Meet our customers >"}/>
+                    <Line mods={{size:"m"}} className={cnStats("LinePurple")} />
+                    <Note  mods={{size:"s"}} className={cnStats("Note")} text={"*PwC audited methodology."}/>
+                    <Note  mods={{size:"s"}} className={cnStats("Under")} text={"Read the report"}/>
+                    <Line mods={{size:"la", color: "black"}} className={cnStats("LineBlack")}/>
                 </div>
-                <Line mods={{size:'b', color:"gray"}} />
+                <Line mods={{size:'b', color:"gray"}} className={cnStats("LineGray")} />
                  <div className={cnStats("Right")}>
                         <div className={cnStats("Right-Content")}>
-                            <div className={cnStats("Block")}>
-                            <Title mods={{size:"mm" , direction:"left"}} text={"140%"}/>
-                            <Note  mods={{size:"s", direction:"lover" , place:"left"}} text={"Qubit's top customers"}/>
-                            <Note  mods={{size:"s" , place:"left"}} text={"annual growth rate."}/>
-                            </div>
-                            <div className={cnStats("Block")}>
-                            <Title mods={{size:"mm" , direction:"left"}} text={"$20bn"}/>
-                            <Note  mods={{size:"s", direction:"lover" , place:"left"}} text={"Online sales generated"}/>
-                            <Note  mods={{size:"s" , place:"left"}} text={"by our customers in 2020."}/>
-                            </div>
-                            <div className={cnStats("Block")}>
-                            <Title mods={{size:"mm" , direction:"left"}} text={"364"}/>
-                            <Note  mods={{size:"s", direction:"lover" , place:"left"}} text={"Ecommerce stores are"}/>
-                            <Note  mods={{size:"s" , place:"left"}} text={"growing faster with Qubit."}/>
-                            </div>
+                            <StatsBlock title={"140%"} body={"Qubit's top customers"} secondBody={"annual growth rate."} />
+                            <StatsBlock title={"$20bn"} body={"Online sales generated"} secondBody={"by our customers in 2020."} />
+                            <StatsBlock title={"364"} body={"Ecommerce stores are"} secondBody={"growing faster with Qubit."} />
                         </div>
-                    <Line mods={{size:'b', color:"gray"}} /> 
-                    <div className={cnStats("Right-Content")}>
-                    <div className={cnStats("Block")}>
-                            <Title mods={{size:"mm" , direction:"left"}} text={"9.5m"}/>
-                            <Note  mods={{size:"s", direction:"lover" , place:"left"}} text={"Personalized experiences"}/>
-                            <Note  mods={{size:"s" , place:"left"}} text={"delivered every hour."}/>
-                            </div>
-                            <div className={cnStats("Block")}>
-                            <Title mods={{size:"mm" , direction:"left"}} text={"4.4m"}/>
-                            <Note  mods={{size:"s", direction:"lover" , place:"left"}} text={"Shoppers influenced"}/>
-                            <Note  mods={{size:"s" , place:"left"}} text={"by Qubit every day."}/>
-                            </div>
-                            <div className={cnStats("Block")}>
-                            <Title mods={{size:"mm" , direction:"left"}} text={"$1.6bn"}/>
-                            <Note  mods={{size:"s", direction:"lover" , place:"left"}} text={"Incremental revenue generated"}/>
-                            <Note  mods={{size:"s" , place:"left"}} text={"by our customers in 2020.*"}/>
-                            </div>
-                    </div>
+                        <Line mods={{size:'b', color:"gray"}} className={cnStats("LineRight")} /> 
+                        <div className={cnStats("Right-Content")}>
+                            <StatsBlock title={"9.5m"} body={"Personalized experiences"} secondBody={"delivered every hour."} />
+                            <StatsBlock title={"4.4m"} body={"Shoppers influenced"} secondBody={"by Qubit every day."} />
+                            <StatsBlock title={"$1.6bn"} body={"Incremental revenue generated"} secondBody={"by our customers in 2020.*"} />
+                        </div>
                 </div>
             </div>
     </div>

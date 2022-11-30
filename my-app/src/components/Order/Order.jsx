@@ -2,8 +2,7 @@ import React from 'react'
 import { cn } from '@bem-react/classname'
 import "./order.css"
 import Title from '../pages/Title/Title'
-import Input from '../pages/Input/Input'
-import Button from '../pages/Button/Button'
+import Searcher from '../pages/Searcher/Searcher'
 
 const Order = () => {
     const cnOrder = cn("Order")
@@ -12,8 +11,7 @@ const Order = () => {
       <div className={cnOrder("Content")}>
         <Title mods={{size:"mm", color:"white", textAlign:'center'}} text={"Book a demo today."} />
         <div className={cnOrder("Items")}>
-          <Input mods={{size:"m"}} text={"Enter your email"}/>
-          <Button mods={{size:'sma', border: true}} text={"Book a demo"} />
+            <Searcher />
         </div>
       </div>
 

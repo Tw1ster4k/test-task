@@ -2,3 +2,16 @@
     width: 304px;
     height: 280px;
 }
+
+.Block-Image{
+    display: block;
+    margin: 0 auto;
+}
+
+.Block-Title{
+    margin-top: 46px;
+}
+
+.Block-Note{
+    margin-top: 16px;
+}

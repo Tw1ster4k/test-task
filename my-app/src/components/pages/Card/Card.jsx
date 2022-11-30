@@ -12,10 +12,10 @@ const Card = ({imgurl, title, body, explore}) => {
     <div className={cnCard()} >
         <div className={cnCard("Content")}>
         <Images imgurl={imgurl} />
-        <Title mods={{size:"s", direction:"rightOfIcon", color:"white"}} text={title} />
-        <Note mods={{size:'sl', color:"white" , direction:"underImg"}} text={body}/>
-        <Note mods={{size:'s', color:"white" , direction:"underText"}} text={explore}/>
-        <Line mods={{color:"white", size:"ma", direction:"endCard"}} />
+        <Title mods={{size:"s", color:"white"}} className={cnCard("Title")} text={title} />
+        <Note mods={{size:'sl', color:"white"}} className={cnCard("Note")} text={body}/>
+        <Note mods={{size:'s', color:"white"}} className={cnCard("Under")} text={explore}/>
+        <Line mods={{color:"white", size:"ma"}} className={cnCard("Line")} />
         </div>
     </div>
   )
