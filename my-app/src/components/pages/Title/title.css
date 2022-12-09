@@ -1,5 +1,4 @@
 .Title_size_b{
-    margin-left: 16.5px;
     font-size: 54px;
     line-height: 61px;
     font-weight: 700;
@@ -44,29 +43,14 @@
     line-height: 23px;
 }
 
-.Title_direction_underImg{
-    margin-top: 46px;
-}
 
-.Title_place_ll{
-    position: absolute;
-    margin-top: 94px;
-    margin-left: 25%;
-}
 
 .Title_color_white{
     color: #ffffff;
 }
 
-.Title_direction_rightOfIcon{
-    margin-left: 105px;
-    margin-top: -43px;
-}
 
 .Title_color_dbd{
     color: #17002E;
 }
 
-.Title_direction_left{
-    margin-left: 16.5px;
-}

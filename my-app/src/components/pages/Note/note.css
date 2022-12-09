@@ -10,17 +10,6 @@
     line-height: 21px;
 }
 
-.Note_direction_under{
-    margin-top: 56px;
-}
-
-.Note_direction_lover{
-    margin-top: 16px;
-}
-
-.Note_direction_underText{
-    margin-top: 7px;
-}
 
 .Note_size_ls{
     font-family: Roboto-Regular;
@@ -47,19 +36,3 @@
     color:#ffffff;
 }
 
-.Note_direction_underImg{
-    margin-top: 31px;
-}
-
-
-.Note_direction_underTitle{
-    margin-top: 47px;
-}
-
-.Note_place_underTitle{
-    margin-top: 30px;
-}
-
-.Note_place_under{
-    margin-top: 11px;
-}

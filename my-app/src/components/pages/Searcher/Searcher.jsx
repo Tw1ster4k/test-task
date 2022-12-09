@@ -9,7 +9,7 @@ const Searcher = () => {
   return (
     <div className={cnSearcher()}>
     <Input mods={{size:"m"}} text={"Enter your email"}/>
-    <Button mods={{size:'sma', border: true}} text={"Book a demo"} />
+    <Button mods={{size:'sma', border: true}}  className={cnSearcher("Button")} text={"Book a demo"} />
     </div>
   )
 }

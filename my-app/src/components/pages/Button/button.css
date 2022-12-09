@@ -19,8 +19,6 @@
 
 .Button_border{
     border-radius: 0px 27.5px 27.5px 0px;
-    margin-top: -45px;
-    margin-left: 268px;
 }
 
 .Button_backgroundColor_white{
@@ -35,7 +33,3 @@
     border-color: #FFFF;
 }
 
-.Button_direction_under{
-    margin-top: 74px;
-    margin-left: -10px;
-}

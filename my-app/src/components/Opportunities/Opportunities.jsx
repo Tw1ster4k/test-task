@@ -12,17 +12,18 @@ import Flaky from "../pictures/Flaky.png"
 
 const Opportunities = () => {
     const cnOpportunities = cn("Opportunities")
+    const arr = [{imgurl:Squares, title:"1:1 Product recommendations", body:"Use deep learning recommendations to engage customers in seconds."}, {imgurl:Lypa, title:"Product insights", body:'A platform packed with insights helping you discover the hard hitting things you can do next.'},
+    {imgurl:SquareCircle,title:"1:1 Product badging",body:"Guide discovery with personalized product badging. Push sales with social proofing."}, {imgurl:Processor, title:"CommerceAI",body:`Your customer's behavioral data is telling you a story. Use predictive and affinity based algorithms to serve them better.`} ,
+    {imgurl:Spinner,title:'Personalized content',body:"Your customers are unique. Present them with content that shows you know them."}, {imgurl:Flaky, title:"Platform integrations", body:"Connect Qubit to any tool via API. Import data or trigger an experience on any platform."}
+  ]
   return (
     <div className={cnOpportunities()} >
         <div className={cnOpportunities("Content")}>
             <Title mods={{size:"mm", textAlign:'center'}} text={"What you can do with Qubit."} />
             <div className={cnOpportunities("Items")}>
-                <Block imgurl={Squares} title={"1:1 Product recommendations"} body={'Use deep learning recommendations to engage customers in seconds.'} />
-                <Block imgurl={Lypa} title={'Product insights'} body={'A platform packed with insights helping you discover the hard hitting things you can do next.'} />
-                <Block imgurl={SquareCircle} title={"1:1 Product badging"} body={'Guide discovery with personalized product badging. Push sales with social proofing.'} />
-                <Block imgurl={Processor} title={'CommerceAI'} body={`Your customer's behavioral data is telling you a story. Use predictive and affinity based algorithms to serve them better.`} />
-                <Block imgurl={Spinner} title={'Personalized content'} body={'Your customers are unique. Present them with content that shows you know them.'} />
-                <Block imgurl={Flaky} title={'Platform integrations'} body={'Connect Qubit to any tool via API. Import data or trigger an experience on any platform.'} />
+                  {arr.map((el, index) =>
+                    <Block imgurl={el.imgurl} title={el.title} body={el.body} key={index} />
+                  )}
             </div>
         </div>
     </div>
