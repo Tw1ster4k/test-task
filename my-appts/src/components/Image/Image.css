@@ -1,0 +1,62 @@
+.Image_size_s{
+    width: 100px;
+    height: 40px;
+}
+
+.Image_size_sm{
+    width: 37px;
+    height: 37px;
+}
+
+.Image_direction_center{
+    position: relative;
+    margin-left: 133.5px;
+}
+
+.Image_size_b{
+    height: 560px;
+    width: 996px;
+}
+
+.Image_place_center{
+    position: absolute;
+    left: 50%;
+    margin-left: -500px;
+    margin-top: 280px;
+}
+
+.Image_size_m{
+    height: 200px;
+    width: 300px;
+}
+
+.Image_direction_centerCard{
+    margin-top: 25px;
+    margin-left: 85.5px;
+}
+
+.Image_size_ls{
+    width: 26px;
+    height: 46px;
+}
+
+.Image_size_large{
+    width: 567px;
+    height: 567px;
+}
+
+.Image_direction_right{
+    position: relative;
+    top: -450px;
+    left: 725px;
+
+}
+
+.Image_side_center{
+    display: block;
+    margin: 0 auto;
+}
+
+.Image_direction_left{
+    margin-left: 80px;
+}

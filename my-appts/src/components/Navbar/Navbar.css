@@ -1,0 +1,62 @@
+@font-face{
+    font-family: "Roboto-Regular";
+    src: url(../../../../my-app/src/components/fonts/Roboto-Regular.ttf);
+}
+
+.Navbar{
+    position: absolute;
+    height: 60px;
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #FFFF;
+    top: 0px;
+    left: 0%;
+    right: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Navbar-Title{
+    width: 79px;
+    height: 24px;
+    left: 2.08%;
+    right: 92.43%;
+    top: 20px;
+}
+
+.Navbar-Navigate{
+    height: 14px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+}
+.Navbar-Button {
+    margin: 20px;
+}
+
+.Navbar-Image{
+    margin-top: 40%;
+}
+
+.Navbar-Nav{
+    display: flex;
+    width: 1440px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Navbar-Ul{
+    width: 50%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.Navbar-Li{
+    list-style-type: none;
+    font-family: Roboto-Regular;
+}
+
+.Navbar-Link{
+    text-decoration: none;
+    color: #1c1c1c;
+}

@@ -1,0 +1,38 @@
+@font-face{
+    font-family: "Roboto-Regular";
+    src: url(../../../../my-app//src//components//fonts/Roboto-Regular.ttf);
+}
+
+.Note_size_s{
+    color: #000;
+    font-family: Roboto-Regular;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+
+.Note_size_ls{
+    font-family: Roboto-Regular;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.Note_textAlign_center{
+    text-align: center;
+}
+
+.Note_size_sm{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.Note_color_purple{
+    color: #6f2cff;
+}
+
+.Note_color_white{
+    color:#ffffff;
+}
+
