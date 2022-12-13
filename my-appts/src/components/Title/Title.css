@@ -1,0 +1,55 @@
+.Title_size_b{
+    font-size: 54px;
+    line-height: 61px;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url(../../../../my-app/src/components/fonts/Roboto-Bold.ttf);
+}
+
+.Title_color_purple{
+    color: #6f2dff;
+}
+
+.Title_size_s{
+    font-family: Roboto-Bold;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.Title_textAlign_center{
+    text-align: center;
+}
+
+.Title_color_hexGrey{
+    color: #1c1c1c1c
+}
+
+.Title_size_mm{
+    font-family: Roboto-Bold;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+}
+
+
+.Title_size_sm{
+    font-family: Roboto-Bold;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 23px;
+}
+
+
+
+.Title_color_white{
+    color: #ffffff;
+}
+
+
+.Title_color_dbd{
+    color: #17002E;
+}

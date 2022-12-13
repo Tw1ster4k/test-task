@@ -1,0 +1,23 @@
+.Connect{
+    height: 342px;
+
+}
+
+.Connect-Content{
+    height: 133px;
+    margin-top: 29px;
+}
+
+.Connect-Items{
+    position: relative;
+    width: 185px;
+    top: 26px;
+    left: 44%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Connect-Image{
+    display: block;
+    margin: 0 auto;
+}

@@ -1,0 +1,16 @@
+.Order{
+    height: 330px;
+    background: url("../pictures/Order.png");
+}
+
+.Order-Content{
+    position: relative;
+    height: 237px;
+    top: 93px;
+
+}
+
+.Order-Items{
+    position: relative;
+    margin: 39px 35% 0 35%;
+}

@@ -1,0 +1,30 @@
+.Card{
+    width: 460px;
+    height: 200px;
+    background-color: #17002E;
+    border-radius: 8px 10px 10px 8px;
+}
+
+.Card-Content{
+    width: 300px;
+    margin-top: 36px;
+    margin-left: 33px;
+}
+
+.Card-Title{
+    margin-left: 105px;
+    margin-top: -43px;
+}
+
+.Card-Note{
+    margin-top: 31px;
+}
+
+.Card-Under{
+    margin-top: 7px;
+    white-space: nowrap;
+}
+
+.Card-Line{
+    margin-top: 9px;
+}

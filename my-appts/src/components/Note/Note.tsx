@@ -4,7 +4,7 @@ import "./Note.css"
 interface TypeNote {
     className?: string,
     mods?: object,
-    text: string
+    text?: string
 }
 
 const Note = ({className, mods, text} : TypeNote ) => {

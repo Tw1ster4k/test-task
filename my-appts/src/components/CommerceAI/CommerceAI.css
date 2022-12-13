@@ -1,0 +1,16 @@
+.CommerceAI{
+    height: 537px;
+    margin-top: 94px;
+}
+
+
+.CommerceAI-Items{
+    height: 400px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.CommerceAI-Note{
+    margin-top: 22px;
+}

@@ -1,0 +1,23 @@
+.Brands{
+    height: 180px;
+}
+
+.Brands-Content{
+    height: 139px;
+    margin-top: 35px;
+}
+
+.Brands-Images{
+    margin-top: 29px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Brands-End{
+    margin-top: 24px;
+}
+
+.Brands-Line{
+    margin: 0 auto;
+    
+}

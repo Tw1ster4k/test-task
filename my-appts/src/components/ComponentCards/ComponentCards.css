@@ -1,0 +1,23 @@
+.ComponentCards{
+    height: 751px;
+    background-color: #f5f5f5;
+}
+
+.ComponentCards-Content{
+    position: relative;
+    height: 663px;
+    top: 88px;
+}
+
+.ComponentCards-Items{
+    height: 438px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ComponentCards-Button{
+    border: none;
+    background-color: #f5f5f5;
+}

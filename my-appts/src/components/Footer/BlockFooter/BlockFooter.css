@@ -1,0 +1,21 @@
+.BlockFooter{
+    width: 155px;
+    height: 300px;
+}
+
+.BlockFooter-Note{
+    margin-top: 30px;
+}
+
+.BlockFooter-UnderNote{
+    margin-top: 11px;
+}
+
+.BlockFooter-Link{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.BlockFooter-Title{
+    white-space: nowrap;
+}
