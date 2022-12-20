@@ -9,6 +9,7 @@ import WhiteQubit from "../pictures/WhiteQubit.png"
 const Footer = () => {
     const cnFooter = cn("Footer")
 
+    // TODO! - Нужно кэшировать данные с помощью useMemo
     const obj1 = {title:"Featured Capabilities" , titleNote:'', body: ["A/B testing", 'Abandonment recovery', "Customer insights", "Customer polling and feedback", "Customer segmentation", "Data collection", "Ecommerce merchandising"]}
     const obj2 = { title:'', titleNote:'', body:["Custom machine learning",'Journey Personalization',"Mobile app personalization","Cross-channel personalization","Social proofing","Website personalization"]}
     const obj3 = { titleNote:'', title:"Products", body:['1:1 Product recommendations','1:1 Product badging','1:1 Journey personalization','Personalized content','Product insights'] }

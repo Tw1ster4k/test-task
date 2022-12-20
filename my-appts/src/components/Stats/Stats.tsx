@@ -2,7 +2,7 @@ import "./Stats.css"
 import { cn } from "@bem-react/classname"
 import Title from "../Title/Title"
 import Line from "../Line/Line"
-import Button from "../Button/Button"
+import {Button} from "../Button/Button"
 import Note from "../Note/Note"
 import StatsBlock from "./StatsBlock/StatsBlock"
 

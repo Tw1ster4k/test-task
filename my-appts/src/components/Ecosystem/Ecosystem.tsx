@@ -2,9 +2,9 @@ import { cn } from "@bem-react/classname"
 import Note from "../Note/Note"
 import Title from "../Title/Title"
 import Image from "../Image/Image"
-import Button from "../Button/Button"
 import "./Ecosystem.css"
 import System from "../pictures/System.png"
+import {Button} from "../Button/Button";
 
 const Ecosystem = () => {
     const cnEcosystem = cn("Ecosystem")

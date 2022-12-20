@@ -11,6 +11,7 @@ const Search = () => {
           <div className={cnSearch("Content")}>
               <Note mods={{size:"s"}} className={cnSearch("Note")} text={"Driving growth with personalization."} />
               <h1 className={cnSearch("Title", {color:"Black"})}>Make ecommerce</h1>
+              {/*TODO! Не допускается использование 2-х h1 - он должен быть только один. Как вариант - можно использовать h2 (который используется неограниченное количество раз)*/}
               <h1 className={cnSearch("Title", {color:"Purple"})}>More personal.</h1>
   
               <p className={cnSearch("Text")}>

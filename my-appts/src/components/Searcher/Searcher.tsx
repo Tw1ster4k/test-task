@@ -1,7 +1,7 @@
 import {cn} from "@bem-react/classname"
-import Button from '../Button/Button'
 import Input from '../Input/Input'
 import "./Searcher.css"
+import {Button} from "../Button/Button";
 
 const Searcher = () => {
     const cnSearcher = cn("Searcher")

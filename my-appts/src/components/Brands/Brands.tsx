@@ -20,7 +20,7 @@ const Brands = () => {
 
 
   // Не особо понимаю как мы должны через useEffect импортировать картинки P.S. так и не смог понять и поэтому импортировал каждую по отдельности и кинул в массив
-
+  //  TODO! В данном случае подойдет такой вариант, но по логике, картинки подгружаются с бэкенда, поэтому знай, что подгружать картинки нужно в useEffect и сохранять в useState
       
   
 
@@ -31,7 +31,7 @@ const Brands = () => {
         <Title mods={{size: "s", color: "hexGray", textAlign:"center"}} text={"Trusted by world-class brands."} />
         <div className={cnBrands("Images")}>
         {arr.map((el,index) =>
-        <Image key={index} imgurl={el}  mods={{size:"s"}} />
+            <Image key={index} imgurl={el}  mods={{size:"s"}} />
         )}
         </div>
         <div className={cnBrands("End")}>

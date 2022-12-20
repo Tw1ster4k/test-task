@@ -14,24 +14,27 @@ import Order from "./Order/Order"
 import Connect from "./Connect/Connect"
 import Footer from "./Footer/Footer"
 
+// TODO! Выносим cn за тело функции
+const cnQubit = cn("Qubit")
+
 const Qubit = () => {
-    const cnQubit = cn("Qubit")
   return (
-    <div className={cnQubit()}>
-    <Navbar />
-    <Search />
-    <Brands />
-    <Stats />
-    <CommerceAI />
-    <WithPicture />
-    <Opportunities />
-    <ComponentCards />
-    <Specialization />
-    <Ecosystem />
-    <Order />
-    <Connect />
-    <Footer />
-    </div>
+    //  TODO! Тело документа оборачиваем в семантический тег main
+    <main className={cnQubit()}>
+      <Navbar />
+      <Search />
+      <Brands />
+      <Stats />
+      <CommerceAI />
+      <WithPicture />
+      <Opportunities />
+      <ComponentCards />
+      <Specialization />
+      <Ecosystem />
+      <Order />
+      <Connect />
+      <Footer />
+    </main>
   )
 }
 

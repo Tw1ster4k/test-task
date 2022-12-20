@@ -3,7 +3,7 @@ import { cn } from "@bem-react/classname"
 import Title from "../Title/Title"
 import Note from "../Note/Note"
 import Image from "../Image/Image"
-import Button from "../Button/Button"
+import {Button} from "../Button/Button"
 
 const WithPicture = () => {
     const cnWithPicture = cn("WithPicture");

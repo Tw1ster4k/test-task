@@ -18,6 +18,7 @@ const Specialization = () => {
               <Title mods={{size:"mm", textAlign:'center'}} text={"We specialize in your industry."} />
               <Note mods={{size:'ls', textAlign: 'center'}} className={cnSpecialization("Note")} text={"Learn how we are delivering personalization at scale across sectors."}/>
               <div className={cnSpecialization('Items')}>
+                  {/*TODO! - метод map*/}
                   <Card imgurl={Leaves} title={"Beauty and cosmetics"} body={"Discover relevant products. Push samples. Upsell and replenish."} explore={"Explore our solutions for beauty and cosmetics."} />
                   <Card imgurl={Symka} title={"Luxury"} body={"Drive brand experience online. Look after your VIPs."} explore={"Explore our solutions for luxury."} />
                   <Card imgurl={Metka} title={"Travel & tourism"} body={"Be persuasive. Inspire travellers. Drive revenue."} explore={"Explore our solutions for travel and tourism."} />

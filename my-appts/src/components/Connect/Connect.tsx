@@ -18,6 +18,7 @@ const Connect = () => {
         <div className={cnConnect("Content")}>
             <Note mods={{size:'ls', textAlign: 'center'}} text={"Connect with us"}/>
             <div className={cnConnect("Items")}>
+                {/*TODO метод map*/}
                 <Image imgurl={Facebook} />
                 <Image imgurl={Twitter} />
                 <Image imgurl={Linkdin} />

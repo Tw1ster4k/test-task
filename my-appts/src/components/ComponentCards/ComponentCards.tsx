@@ -22,6 +22,7 @@ const ComponentCards = () => {
           <Title mods={{size:"mm", textAlign:'center'}} text={"Trusted by leading brands."} />
           <div className={cnComponentCards("Items")}>
            <button className={cnComponentCards("Button")}> <Image imgurl={Left} mods={{size:'ls'}} /> </button>
+            {/*  TODO! - вывод через map*/}
             <CardImg  imgtitle={Clinique} imgurl={Woman} body={"Clinique builds relationships with millions of customers each year."}/>
             <CardImg  imgtitle={Island} imgurl={Girl} body={"River Island transforms the customer experience with personalization."}/>
             <CardImg  imgtitle={MM} imgurl={Yellow} body={"MandM Direct drives increase in revenue with deep learning recs"}/>
